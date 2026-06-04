@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Рязанские снэки" },
+      { name: "description", content: "Showcases Ryazan Snacks' packaged food products like snacks, peanuts, and dried fish with branded visuals." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Рязанские снэки" },
+      { property: "og:description", content: "Showcases Ryazan Snacks' packaged food products like snacks, peanuts, and dried fish with branded visuals." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Рязанские снэки" },
+      { name: "twitter:description", content: "Showcases Ryazan Snacks' packaged food products like snacks, peanuts, and dried fish with branded visuals." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/484f24e3-55c2-47d5-9f58-b43790599a8e/id-preview-71dacd19--a1f8114e-190a-4961-b3f8-5c7ed77a9e84.lovable.app-1780587428901.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/484f24e3-55c2-47d5-9f58-b43790599a8e/id-preview-71dacd19--a1f8114e-190a-4961-b3f8-5c7ed77a9e84.lovable.app-1780587428901.png" },
     ],
     links: [
       {
