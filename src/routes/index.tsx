@@ -1,8 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logoAsset from "@/assets/logo.png.asset.json";
-import solomkaAsset from "@/assets/solomka.png.asset.json";
-import pistachiosAsset from "@/assets/pistachios.png.asset.json";
-import nachosAsset from "@/assets/nachos.png.asset.json";
+import logoUrl from "@/assets/logo.png";
+import solomkaUrl from "@/assets/solomka.png";
+import pistachiosUrl from "@/assets/pistachios.png";
+import nachosUrl from "@/assets/nachos.png";
+
+const logoAsset = { url: logoUrl };
+const solomkaAsset = { url: solomkaUrl };
+const pistachiosAsset = { url: pistachiosUrl };
+const nachosAsset = { url: nachosUrl };
 
 export const Route = createFileRoute("/")({
   head: () => ({
